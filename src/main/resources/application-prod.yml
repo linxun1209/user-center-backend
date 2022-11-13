@@ -1,0 +1,12 @@
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: 'jdbc:mysql://110.40.211.224:3306/center?useSSL=false'
+    username: root
+    password: 419520
+  # session 失效时间
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
